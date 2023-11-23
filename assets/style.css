@@ -16,6 +16,7 @@ body {
     background-color: #2C2C54;
     color: #2C2C54;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
@@ -66,9 +67,10 @@ a {
     margin-left: 60px;
 }
 
-.container {
+.card {
+    padding-left: 100px;
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
   }
   
@@ -87,4 +89,34 @@ p {
     border-left: 3px solid black;
     height: 100px;
     margin: 0 20px;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.firstimg {
+    margin-top: 10px;
+    border: 10px solid #7f84c0;   
+}
+
+
+.secimg {
+    margin-top: 10px;
+    border: 10px solid #7f84c0;
+}
+
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 100px;
+    list-style: none;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: underline;
+    color: black;
+    
 }

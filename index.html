@@ -3,6 +3,8 @@
 
 <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/style.css">
     <title>Portfolio</title>
 </head>
@@ -15,27 +17,41 @@
                 <li><a href="#about-me">About</a></li>
                 <li><a href="#work">Work</a></li>
                 <li><a href="#contact">Contact</a></li>
-                <li><a href="#Resume">Resume</a></li>
+                <li><a href="assets\Resume.pdf">Resume</a></li>
             </ul>
         </nav>
     </header>
     <div class="dev">
         <img src="assets\images\Photo.jpg" alt="Purple wallpaper" style="width: 30% ">
-        <div class=devlop><b>FullStack Developer</b></div>
+        <div class=devlop><b>Web Developer</b></div>
     </div>
     <main>
         <section id="about-me">
-            <div class="container">
+            <div class="card">
                 <h2>About Me</h2>
                 <div class="vertical-line"></div>
                 <p>Hi, I'm a Fullstack developer and CNC machinist based in Toronto, Ontario. I love troubleshooting codes for both websites and machining.</p>
             </div>
         </section>
         <section id="work">
-            <div class="container">
+            <div class="card">
                 <h2>My Works</h2>
                 <div class="vertical-line"></div>
-                <img src="assets\images\Horiseon.png" alt="webpage" style="width: 50%;">
+                    <div>
+                        <a href="https://bismarksandez.github.io/Horiseon-Digital-Marketing/" class="firstimg"><img src="assets\images\Horiseon.png" alt="webpage" style="width: 50%;"></a>
+                        <a href="https://bismarksandez.github.io/prework-study-guide/" class="secimg"><img src="assets\images\Prework.png" alt="Webpage screenshot" style="width: 25%;"></a>
+                    </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="card">
+                <h2>Contact</h2>
+                <div class="vertical-line"></div>
+                <ul class="contact">
+                    <li>613-929-1099</li>
+                    <li>bismarksandez@gmail.com</li>
+                    <li><a href="https://github.com/Bismarksandez">GITHUB</a></li>
+                </ul>
             </div>
         </section>
     </main>
