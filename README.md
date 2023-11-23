@@ -14,3 +14,4 @@ This webpage contains links to webpages created by Bismark.
 
 ## Screenshot
 
+![Portfolio](assets\images\SS Webpage.png)
